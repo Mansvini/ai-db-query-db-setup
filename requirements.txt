@@ -1,0 +1,6 @@
+Flask
+psycopg
+openai
+python-dotenv
+Flask-Cors
+pandas
