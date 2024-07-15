@@ -91,7 +91,7 @@ This repository contains the schema and scripts for creating and populating a Po
 
 2. **Set up a Python virtual environment:**
    ```sh
-   python -m venv venv
+   python3 -m venv venv
    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
@@ -122,6 +122,9 @@ This repository contains the schema and scripts for creating and populating a Po
       GRANT ALL PRIVILEGES ON DATABASE mydatabase TO myuser;
       \q
       ```
+
+      OR
+      Follow the instructions to create a database for your installer.
 
    c. **Update the `.env` file with your PostgreSQL database credentials:**
       ```ini
