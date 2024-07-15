@@ -20,7 +20,7 @@ cursor = conn.cursor()
 
 # Load CSV files
 people_info = pd.read_csv('./data/people_info.csv')
-event_info = pd.read_csv('./data/events_info.csv')
+event_info = pd.read_csv('./data/event_info.csv')
 company_info = pd.read_csv('./data/company_info.csv')
 
 # Ensure date columns are correctly formatted
