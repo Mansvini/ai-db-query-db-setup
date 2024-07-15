@@ -85,8 +85,8 @@ This repository contains the schema and scripts for creating and populating a Po
 
 1. **Clone the repository:**
    ```sh
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/Mansvini/ai-db-query-db-setup.git
+   cd ai-db-query-db-setup
    ```
 
 2. **Set up a Python virtual environment:**
