@@ -134,7 +134,7 @@ This repository contains the schema and scripts for creating and populating a Po
 
 5. **Run the schema creation script:**
    ```sh
-   python create_schema.py
+   python setup_db.py
    ```
 
 6. **Load the data into the database:**
